@@ -1,0 +1,93 @@
+/*v:test 作者:小贝
+*
+*/
+.popup-main,.popup-shade{
+	position: fixed;
+}
+.popup-shade{
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgb(0,0,0);
+	opacity:0.4;
+	z-index: 500;
+}
+.popup-main{
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	/*height: 80px;*/
+	/*margin: -40px 0  0 -125px ;*/
+	background-color: #ffffff;
+	z-index: 999;
+	box-shadow:1px 1px 60px rgba(0,0,0,.3)
+}
+.popup-title{
+	padding: 0 60px 0 20px;
+	background-color: #F8F8F8;
+	height: 42px;
+	line-height:42px;
+	border-bottom: 1px solid #eee;
+	color: #000000;
+	font-size:14px;
+	overflow:hidden;
+}
+.popup-content {
+	position: relative;
+	padding: 20px;
+	line-height: 24px;
+	word-break: break-all;
+	overflow: hidden;
+	font-size: 14px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.popup-operation {
+	position: absolute;
+	right: 15px;
+	*right: 0;
+	top: 15px;
+	font-size: 0;
+	line-height: initial;
+}
+.popup-operation a{
+	position: relative;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+	font-size: 14px;
+	_overflow: hidden;
+	display: inline-block;
+	vertical-align:top;
+	cursor: pointer;
+}
+.popup-btn a{
+	height: 28px;
+	line-height: 28px;
+	margin: 6px 6px 0;
+	padding: 0 15px;
+	border: 1px solid #dedede;
+	background-color: #f1f1f1;
+	color: #333;
+	border-radius: 2px;
+	font-weight: 400;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+
+}
+.popup-btn{
+	text-align: right;
+	padding: 0 10px 12px;
+	pointer-events: auto;
+	/*display: inline-block;*/
+}
+.popup-btn .popup-btn0{
+	border-color: #4898d5;
+	background-color: #2e8ded;
+	color: #fff;
+
+}

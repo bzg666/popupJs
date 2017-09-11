@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>测是</title>
+<script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css"  >
+    <script src="popup.js"></script>
+</head>
+<body>
+<!--&lt;!&ndash;遮罩&ndash;&gt;-->
+<!--<div class="popup-shade"></div>-->
+<!--&lt;!&ndash;主体&ndash;&gt;-->
+<!--<div id="popup-main1" class="popup-main">-->
+    <!--<div class="popup-title" style="cursor: move;">提示</div>-->
+    <!--<div class="popup-content" >内容</div>-->
+    <!--<div class="popup-operation" >-->
+        <!--<a>a</a>-->
+        <!--<a>b</a>-->
+        <!--<a>x</a>-->
+<!--</div>-->
+
+    <!--<div class="popup-btn" >-->
+        <!--<a class="popup-btn0">确定</a>-->
+        <!--<a class="popup-btn0">取消</a>-->
+    <!--</div>-->
+
+<!--</div>-->
+
+
+<button id="btn">
+test
+</button>
+
+<script>
+
+
+    $(function($){
+        $("#btn").on("click",function(){
+            popup.alert("内容",{titleText:"标题"});
+        })
+    });
+
+</script>
+</body>
+</html>
